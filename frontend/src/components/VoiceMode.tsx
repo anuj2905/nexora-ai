@@ -222,7 +222,7 @@ export default function VoiceMode({ onClose }: VoiceModeProps) {
 
       const audio = document.createElement("audio");
       audio.autoplay = true;
-      audio.playsInline = true;
+      
       audioRef.current = audio;
 
       peer.ontrack = async (event) => {
