@@ -27,7 +27,7 @@ import {
   deleteDocument,
   type ConversationSummary,
   type KnowledgeDocument,
-} from "@/lib/api_old";
+} from "@/lib/api";
 import {
   searchResearchRecommendations,
   type RecommendationCategory,

@@ -19,7 +19,7 @@ import {
   logout,
   register,
   type AuthUser,
-} from "@/lib/api_old";
+} from "@/lib/api";
 
 type Mode = "login" | "signup";
 
