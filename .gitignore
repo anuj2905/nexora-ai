@@ -1,0 +1,94 @@
+
+# ==========================================
+# NEXORA AI - ROOT GITIGNORE
+# ==========================================
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+!.env.example.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+.pyenv/
+.pytype/
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Backend uploads and local data
+backend/uploads/
+uploads/
+*.db
+*.sqlite
+*.sqlite3
+*.dump
+*.backup
+*.bak
+backend/app/vector_store.json
+
+# Node.js dependencies
+node_modules/
+.npm/
+.pnpm-store/
+
+# Next.js
+.next/
+out/
+.vercel/
+.turbo/
+next-env.d.ts
+*.tsbuildinfo
+
+# Build and test outputs
+coverage/
+playwright-report/
+test-results/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.old
+
+# Temporary source exports
+frontend/page-source.txt
